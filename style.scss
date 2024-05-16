@@ -26,7 +26,7 @@ body {
   margin: 0 auto;
 }
 
-#es-prada.es-prada {
+#es-biotherm.es-biotherm {
   font-family: $regular;
   font-size: 15px;
   font-weight: 500;
@@ -52,14 +52,13 @@ body {
 
   .es-title {
     @include text;
-    font-family: $secondary;
+    font-family: $regular;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
     color: #000;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 
     & span {
       font-weight: 700;
@@ -67,11 +66,6 @@ body {
   }
 
   .es-banner {
-    padding-top: 30px;
-    padding-bottom: 57px;
-    padding-left: 15px;
-    padding-right: 15px;
-
     &__image {
       @include img;
       margin-bottom: 54px;
@@ -121,23 +115,20 @@ body {
       font-size: 20px;
       text-align: center;
       color: $black;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
     }
 
     &__item-link {
       display: block;
       margin: 0 auto;
-      padding: 20px 35px;
       max-width: 518px;
-      font-family: $secondary;
+      font-family: $regular;
       font-weight: 400;
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: 0.1em;
-      text-transform: uppercase;
       text-align: center;
-      color: #fff;
-      background: $black;
-      text-decoration: none;
+      color: $black;
+      text-decoration: underline;
       transition: all 0.3s ease;
     }
   }
@@ -149,23 +140,32 @@ body {
 
     &__items {
       display: flex;
+      flex-wrap: wrap;
+      max-width: 800px;
+      justify-content: center;
       flex-direction: column;
       gap: 30px;
+      margin: 0 auto;
+    }
+
+    &__item {
+      // max-width: 250px;
     }
 
     &__image {
       @include img;
-      margin-bottom: 20px;
+      max-width: 280px;
+      max-height: 280px;
+      margin-bottom: 30px;
     }
 
     &__item-title {
       margin-bottom: 25px;
-      font-family: $secondary;
+      font-family: $regular;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 16px;
       text-align: center;
       color: $black;
-      text-transform: uppercase;
     }
 
     &__item-link {
@@ -183,6 +183,16 @@ body {
       background: $black;
       text-decoration: none;
       transition: all 0.3s ease;
+    }
+
+    &__subtitle {
+      @include text;
+      display: block;
+      font-family: $regular;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 16px;
     }
   }
 
@@ -228,7 +238,9 @@ body {
     }
     &__subtitle {
       @include text;
-      font-family: 'Montserrat';
+      display: block;
+      font-family: $regular;
+      font-weight: 400;
       font-size: 16px;
       text-align: center;
       margin-bottom: 16px;
@@ -247,10 +259,11 @@ body {
     }
     &__item-title {
       @include text;
-      min-height: 55px;
+      min-height: 63px;
+      min-width: 175px;
       margin-bottom: 30px;
       font-weight: 500;
-      font-size: 20px;
+      font-size: 13px;
       text-align: center;
       color: $black;
     }
@@ -262,16 +275,12 @@ body {
     }
     &__link {
       @include text;
-      font-family: $secondary;
-      color: $white;
+      font-family: $regular;
+      color: $black;
       min-width: 195px;
-      background: $black;
-      font-size: 16px;
-      text-decoration: none;
-      text-transform: uppercase;
-      padding: 16px 24px;
+      font-size: 13px;
       margin-bottom: 16px;
-      border: 1px solid $black;
+      text-decoration: underline;
       transition: all 0.3s ease;
       text-align: center;
       &:hover {
@@ -342,13 +351,15 @@ body {
       position: relative;
       margin-bottom: 50px;
     }
+
     &__player {
       display: block;
       margin: 0 auto;
-      width: 95%;
+      width: 100%;
       object-fit: cover;
       min-height: 225px;
     }
+
     &__play-button {
       position: absolute;
       top: 50%;
@@ -356,6 +367,7 @@ body {
       transform: translate(-50%, -50%);
       cursor: pointer;
     }
+
     &__image-icon {
       width: 53px;
       height: 53px;
@@ -365,6 +377,18 @@ body {
         height: 116px;
       }
     }
+
+    &__description {
+      @include text;
+      margin-top: 20px;
+      display: block;
+      font-family: $regular;
+      font-weight: 400;
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
     &__additional-description {
       min-width: 320px;
       margin-bottom: 32px;
@@ -372,15 +396,71 @@ body {
         text-transform: none;
       }
     }
+
     &__player {
       &--desktop {
         display: none;
       }
     }
+
     &__play-button {
       &--desktop {
         display: none;
       }
+    }
+  }
+
+  .es-mission {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    &__item {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    &__img {
+      @include img;
+    }
+
+    &__item-title {
+      @include text;
+      margin-bottom: 30px;
+      font-family: $regular;
+      font-weight: 400;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+      color: #000;
+      text-align: center;
+    }
+
+    &__item-description {
+      @include text;
+      margin-bottom: 20px;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    &__link {
+      @include text;
+      display: block;
+      margin: 0 auto;
+      font-family: $regular;
+      color: $black;
+      max-width: 195px;
+      font-size: 13px;
+      margin-bottom: 16px;
+      text-decoration: underline;
+      transition: all 0.3s ease;
+      text-align: center;
     }
   }
 
@@ -515,12 +595,20 @@ body {
         flex-direction: row;
         gap: 10px;
       }
+
+      &__title {
+        margin-bottom: 50px;
+      }
     }
 
     .es-category-2 {
       &__items {
         flex-direction: row;
         gap: 10px;
+      }
+
+      &__subtitle {
+        margin-bottom: 55px;
       }
     }
 
@@ -538,17 +626,12 @@ body {
   }
 
   @media screen and (min-width: 768px) {
-    .es-banner {
-      padding-top: 90px;
-    }
-
     .slick-dots {
       left: 50%;
     }
 
     .es-title {
-      margin-bottom: 50px;
-      font-size: 30px;
+      font-size: 24px;
       text-align: center;
     }
 
@@ -573,9 +656,6 @@ body {
       }
       &__single {
         max-width: 140px;
-      }
-      &__title {
-        margin-bottom: 100px;
       }
       &__text {
         min-height: 75px;
@@ -616,10 +696,6 @@ body {
         }
       }
     }
-
-    .es-title {
-      font-size: 44px;
-    }
   }
 
   @media screen and (min-width: 925px) {
@@ -627,9 +703,21 @@ body {
   @media screen and (min-width: 1024px) {
   }
   @media screen and (min-width: 1200px) {
+    .es-category-2 {
+      &__items {
+        max-width: none;
+        justify-content: space-around;
+      }
+
+      &__image {
+        max-width: 300px;
+        max-height: 290px;
+      }
+    }
+
     .es-cross {
       &__single {
-        max-width: 250px;
+        max-width: 225px;
         justify-content: space-between;
       }
       &__link {
@@ -637,6 +725,10 @@ body {
       }
       &__text {
         max-width: 245px;
+      }
+      &__item-title {
+        min-height: 30px;
+        min-width: 230px;
       }
       &__packshot {
         &--1 {
@@ -660,15 +752,22 @@ body {
         }
       }
     }
+
+    .es-mission {
+      &__img {
+        max-width: 610px;
+      }
+
+      &__text-group {
+        max-width: 50%;
+      }
+    }
   }
 
   @media screen and (min-width: 1300px) {
     .es-slider,
-    .es-category,
-    .es-category-2,
-    .es-cross,
-    .es-video {
-      margin-bottom: 114px;
+    .es-category {
+      margin-bottom: 80px;
     }
   }
 

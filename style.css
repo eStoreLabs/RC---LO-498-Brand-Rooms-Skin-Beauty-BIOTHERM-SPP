@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-#es-prada.es-prada {
+#es-biotherm.es-biotherm {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -16,132 +16,127 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-#es-prada.es-prada * {
+#es-biotherm.es-biotherm * {
   box-sizing: border-box;
 }
-#es-prada.es-prada h2,
-#es-prada.es-prada h3,
-#es-prada.es-prada h4,
-#es-prada.es-prada h5 {
+#es-biotherm.es-biotherm h2,
+#es-biotherm.es-biotherm h3,
+#es-biotherm.es-biotherm h4,
+#es-biotherm.es-biotherm h5 {
   font-family: "Montserrat", sans-serif;
   color: #000000;
 }
-#es-prada.es-prada .es-title {
+#es-biotherm.es-biotherm .es-title {
   margin: 0;
   padding: 0;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-family: "Yeseva One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 30px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   color: #000;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
-#es-prada.es-prada .es-title span {
+#es-biotherm.es-biotherm .es-title span {
   font-weight: 700;
 }
-#es-prada.es-prada .es-banner {
-  padding-top: 30px;
-  padding-bottom: 57px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-#es-prada.es-prada .es-banner__image {
+#es-biotherm.es-biotherm .es-banner__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 54px;
 }
-#es-prada.es-prada .es-banner__description {
+#es-biotherm.es-biotherm .es-banner__description {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 19px;
   text-align: center;
   color: #000;
 }
-#es-prada.es-prada .es-slider {
+#es-biotherm.es-biotherm .es-slider {
   position: relative;
   margin-bottom: 30px;
 }
-#es-prada.es-prada .es-slider__image {
+#es-biotherm.es-biotherm .es-slider__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   width: 95%;
 }
-#es-prada.es-prada .es-slider__image--desktop {
+#es-biotherm.es-biotherm .es-slider__image--desktop {
   display: none;
 }
-#es-prada.es-prada .es-category {
+#es-biotherm.es-biotherm .es-category {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 50px;
 }
-#es-prada.es-prada .es-category__items {
+#es-biotherm.es-biotherm .es-category__items {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-#es-prada.es-prada .es-category__image {
+#es-biotherm.es-biotherm .es-category__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 39px;
 }
-#es-prada.es-prada .es-category__item-title {
+#es-biotherm.es-biotherm .es-category__item-title {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
-#es-prada.es-prada .es-category__item-link {
+#es-biotherm.es-biotherm .es-category__item-link {
   display: block;
   margin: 0 auto;
-  padding: 20px 35px;
   max-width: 518px;
-  font-family: "Yeseva One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
   text-align: center;
-  color: #fff;
-  background: #000000;
-  text-decoration: none;
+  color: #000000;
+  text-decoration: underline;
   transition: all 0.3s ease;
 }
-#es-prada.es-prada .es-category-2 {
+#es-biotherm.es-biotherm .es-category-2 {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 50px;
 }
-#es-prada.es-prada .es-category-2__items {
+#es-biotherm.es-biotherm .es-category-2__items {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: center;
   flex-direction: column;
   gap: 30px;
+  margin: 0 auto;
 }
-#es-prada.es-prada .es-category-2__image {
+#es-biotherm.es-biotherm .es-category-2__image {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
+  max-width: 280px;
+  max-height: 280px;
+  margin-bottom: 30px;
 }
-#es-prada.es-prada .es-category-2__item-title {
+#es-biotherm.es-biotherm .es-category-2__item-title {
   margin-bottom: 25px;
-  font-family: "Yeseva One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   color: #000000;
-  text-transform: uppercase;
 }
-#es-prada.es-prada .es-category-2__item-link {
+#es-biotherm.es-biotherm .es-category-2__item-link {
   display: block;
   margin: 0 auto;
   padding: 20px 35px;
@@ -157,10 +152,24 @@ body {
   text-decoration: none;
   transition: all 0.3s ease;
 }
-#es-prada.es-prada .es-cross {
+#es-biotherm.es-biotherm .es-category-2__subtitle {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-biotherm.es-biotherm .es-cross {
   padding: 0 16px;
 }
-#es-prada.es-prada .es-cross__container {
+#es-biotherm.es-biotherm .es-cross__container {
   display: flex;
   flex-wrap: wrap;
   flex-flow: column;
@@ -169,17 +178,17 @@ body {
   padding: 0 8px;
   margin: 0 -16px;
 }
-#es-prada.es-prada .es-cross__img {
+#es-biotherm.es-biotherm .es-cross__img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   max-height: 290px;
   max-width: 220px;
 }
-#es-prada.es-prada .es-cross__img--3 {
+#es-biotherm.es-biotherm .es-cross__img--3 {
   margin-right: -50px;
 }
-#es-prada.es-prada .es-cross__single {
+#es-biotherm.es-biotherm .es-cross__single {
   max-width: 275px;
   margin-bottom: 25px;
   padding: 0 8px;
@@ -188,33 +197,35 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-#es-prada.es-prada .es-cross__single:hover .es-cross__icon {
+#es-biotherm.es-biotherm .es-cross__single:hover .es-cross__icon {
   transform: scale(1.2);
 }
-#es-prada.es-prada .es-cross__wrapper {
+#es-biotherm.es-biotherm .es-cross__wrapper {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
 }
-#es-prada.es-prada .es-cross__subtitle {
+#es-biotherm.es-biotherm .es-cross__subtitle {
   margin: 0;
   padding: 0;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-family: "Montserrat";
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   text-align: center;
   margin-bottom: 16px;
 }
-#es-prada.es-prada .es-cross__subtitle strong {
+#es-biotherm.es-biotherm .es-cross__subtitle strong {
   display: block;
   text-transform: uppercase;
 }
-#es-prada.es-prada .es-cross__text {
+#es-biotherm.es-biotherm .es-cross__text {
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -227,57 +238,54 @@ body {
   text-align: center;
   margin-bottom: 16px;
 }
-#es-prada.es-prada .es-cross__item-title {
+#es-biotherm.es-biotherm .es-cross__item-title {
   margin: 0;
   padding: 0;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  min-height: 55px;
+  min-height: 63px;
+  min-width: 175px;
   margin-bottom: 30px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 13px;
   text-align: center;
   color: #000000;
 }
-#es-prada.es-prada .es-cross__item-subtitle {
+#es-biotherm.es-biotherm .es-cross__item-subtitle {
   display: block;
   margin-top: 10px;
   font-size: 16px;
 }
-#es-prada.es-prada .es-cross__link {
+#es-biotherm.es-biotherm .es-cross__link {
   margin: 0;
   padding: 0;
   line-height: inherit;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
-  font-family: "Yeseva One", sans-serif;
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
   min-width: 195px;
-  background: #000000;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 16px 24px;
+  font-size: 13px;
   margin-bottom: 16px;
-  border: 1px solid #000000;
+  text-decoration: underline;
   transition: all 0.3s ease;
   text-align: center;
 }
-#es-prada.es-prada .es-cross__link:hover {
+#es-biotherm.es-biotherm .es-cross__link:hover {
   color: #000000;
   background: #ffffff;
 }
-#es-prada.es-prada .es-cross__packshot {
+#es-biotherm.es-biotherm .es-cross__packshot {
   position: relative;
   z-index: 1;
 }
-#es-prada.es-prada .es-cross__packshot--1 {
+#es-biotherm.es-biotherm .es-cross__packshot--1 {
   max-width: 189px;
 }
-#es-prada.es-prada .es-cross__packshot--1::before {
+#es-biotherm.es-biotherm .es-cross__packshot--1::before {
   position: absolute;
   content: "1";
   font-family: "Roboto";
@@ -288,10 +296,10 @@ body {
   line-height: 1;
   z-index: -1;
 }
-#es-prada.es-prada .es-cross__packshot--2 {
+#es-biotherm.es-biotherm .es-cross__packshot--2 {
   max-width: 175px;
 }
-#es-prada.es-prada .es-cross__packshot--2::before {
+#es-biotherm.es-biotherm .es-cross__packshot--2::before {
   position: absolute;
   content: "2";
   font-family: "Roboto";
@@ -302,7 +310,7 @@ body {
   line-height: 1;
   z-index: -1;
 }
-#es-prada.es-prada .es-cross__packshot--3::before {
+#es-biotherm.es-biotherm .es-cross__packshot--3::before {
   position: absolute;
   content: "3";
   font-family: "Roboto";
@@ -313,90 +321,168 @@ body {
   line-height: 1;
   z-index: -1;
 }
-#es-prada.es-prada .es-cross__packshot-icon {
+#es-biotherm.es-biotherm .es-cross__packshot-icon {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 10px;
 }
-#es-prada.es-prada .es-video {
+#es-biotherm.es-biotherm .es-video {
   padding-left: 15px;
   padding-right: 15px;
 }
-#es-prada.es-prada .es-video__wrapper {
+#es-biotherm.es-biotherm .es-video__wrapper {
   position: relative;
   margin-bottom: 50px;
 }
-#es-prada.es-prada .es-video__player {
+#es-biotherm.es-biotherm .es-video__player {
   display: block;
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   min-height: 225px;
 }
-#es-prada.es-prada .es-video__play-button {
+#es-biotherm.es-biotherm .es-video__play-button {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-#es-prada.es-prada .es-video__image-icon {
+#es-biotherm.es-biotherm .es-video__image-icon {
   width: 53px;
   height: 53px;
 }
-#es-prada.es-prada .es-video__image-icon--desktop {
+#es-biotherm.es-biotherm .es-video__image-icon--desktop {
   width: 116px;
   height: 116px;
 }
-#es-prada.es-prada .es-video__additional-description {
+#es-biotherm.es-biotherm .es-video__description {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-top: 20px;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#es-biotherm.es-biotherm .es-video__additional-description {
   min-width: 320px;
   margin-bottom: 32px;
 }
-#es-prada.es-prada .es-video__additional-description strong {
+#es-biotherm.es-biotherm .es-video__additional-description strong {
   text-transform: none;
 }
-#es-prada.es-prada .es-video__player--desktop {
+#es-biotherm.es-biotherm .es-video__player--desktop {
   display: none;
 }
-#es-prada.es-prada .es-video__play-button--desktop {
+#es-biotherm.es-biotherm .es-video__play-button--desktop {
   display: none;
 }
-#es-prada.es-prada .slick-button-prev {
+#es-biotherm.es-biotherm .es-mission__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#es-biotherm.es-biotherm .es-mission__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#es-biotherm.es-biotherm .es-mission__img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-biotherm.es-biotherm .es-mission__item-title {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-align: center;
+}
+#es-biotherm.es-biotherm .es-mission__item-description {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+#es-biotherm.es-biotherm .es-mission__link {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  display: block;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  max-width: 195px;
+  font-size: 13px;
+  margin-bottom: 16px;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+#es-biotherm.es-biotherm .slick-button-prev {
   position: absolute;
   top: 35%;
   left: 15px;
   rotate: 180deg;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-button-next {
+#es-biotherm.es-biotherm .slick-button-next {
   position: absolute;
   top: 35%;
   right: 15px;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-button-2-prev {
+#es-biotherm.es-biotherm .slick-button-2-prev {
   position: absolute;
   bottom: 0;
   left: 15px;
   rotate: 180deg;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-button-2-next {
+#es-biotherm.es-biotherm .slick-button-2-next {
   position: absolute;
   bottom: 0;
   right: 15px;
   cursor: pointer;
 }
-#es-prada.es-prada .slick-pagination-2 {
+#es-biotherm.es-biotherm .slick-pagination-2 {
   position: absolute;
   bottom: 15px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
 }
-#es-prada.es-prada .slick-dots {
+#es-biotherm.es-biotherm .slick-dots {
   position: absolute;
   display: flex;
   gap: 0 4px;
@@ -405,7 +491,7 @@ body {
   bottom: 3%;
   left: 45%;
 }
-#es-prada.es-prada .slick-dots li {
+#es-biotherm.es-biotherm .slick-dots li {
   width: 12px;
   height: 12px;
   display: inline-block;
@@ -413,29 +499,29 @@ body {
   background: #b8a8a6;
   opacity: 1;
 }
-#es-prada.es-prada .slick-dots li:not(:last-child) {
+#es-biotherm.es-biotherm .slick-dots li:not(:last-child) {
   margin-right: 6px;
 }
-#es-prada.es-prada .slick-dots li.slick-active {
+#es-biotherm.es-biotherm .slick-dots li.slick-active {
   background: #000000;
 }
-#es-prada.es-prada .slick-dots li button {
+#es-biotherm.es-biotherm .slick-dots li button {
   display: none;
 }
-#es-prada.es-prada .slick-slide {
+#es-biotherm.es-biotherm .slick-slide {
   opacity: 0.7;
 }
-#es-prada.es-prada .slick-current {
+#es-biotherm.es-biotherm .slick-current {
   opacity: 1;
 }
-#es-prada.es-prada .slick-list {
+#es-biotherm.es-biotherm .slick-list {
   overflow: visible;
 }
-#es-prada.es-prada .slick-arrow.slick-disabled {
+#es-biotherm.es-biotherm .slick-arrow.slick-disabled {
   display: none !important;
 }
 @media screen and (min-width: 560px) {
-  #es-prada.es-prada .es-cross__container {
+  #es-biotherm.es-biotherm .es-cross__container {
     max-width: 628px;
     margin: 0 auto;
     gap: 10px;
@@ -443,138 +529,149 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
   }
-  #es-prada.es-prada .es-video__player--mobile {
+  #es-biotherm.es-biotherm .es-video__player--mobile {
     display: none;
   }
-  #es-prada.es-prada .es-video__player--desktop {
+  #es-biotherm.es-biotherm .es-video__player--desktop {
     display: block;
     min-height: 507px;
   }
-  #es-prada.es-prada .es-video__play-button--mobile {
+  #es-biotherm.es-biotherm .es-video__play-button--mobile {
     display: none;
   }
-  #es-prada.es-prada .es-video__play-button--desktop {
+  #es-biotherm.es-biotherm .es-video__play-button--desktop {
     display: block;
   }
 }
 @media screen and (min-width: 600px) {
-  #es-prada.es-prada .es-category__items {
+  #es-biotherm.es-biotherm .es-category__items {
     flex-direction: row;
     gap: 10px;
   }
-  #es-prada.es-prada .es-category-2__items {
+  #es-biotherm.es-biotherm .es-category__title {
+    margin-bottom: 50px;
+  }
+  #es-biotherm.es-biotherm .es-category-2__items {
     flex-direction: row;
     gap: 10px;
   }
-  #es-prada.es-prada .es-slick-carousel--mobile,
-  #es-prada.es-prada .slick-button-prev,
-  #es-prada.es-prada .slick-button-next {
+  #es-biotherm.es-biotherm .es-category-2__subtitle {
+    margin-bottom: 55px;
+  }
+  #es-biotherm.es-biotherm .es-slick-carousel--mobile,
+  #es-biotherm.es-biotherm .slick-button-prev,
+  #es-biotherm.es-biotherm .slick-button-next {
     display: none;
   }
-  #es-prada.es-prada .slick-pagination-2,
-  #es-prada.es-prada .slick-button-2-prev,
-  #es-prada.es-prada .slick-button-2-next {
+  #es-biotherm.es-biotherm .slick-pagination-2,
+  #es-biotherm.es-biotherm .slick-button-2-prev,
+  #es-biotherm.es-biotherm .slick-button-2-next {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  #es-prada.es-prada .es-banner {
-    padding-top: 90px;
-  }
-  #es-prada.es-prada .slick-dots {
+  #es-biotherm.es-biotherm .slick-dots {
     left: 50%;
   }
-  #es-prada.es-prada .es-title {
-    margin-bottom: 50px;
-    font-size: 30px;
+  #es-biotherm.es-biotherm .es-title {
+    font-size: 24px;
     text-align: center;
   }
-  #es-prada.es-prada .es-slider__image--desktop {
+  #es-biotherm.es-biotherm .es-slider__image--desktop {
     display: block;
   }
-  #es-prada.es-prada .es-slider__image--mobile {
+  #es-biotherm.es-biotherm .es-slider__image--mobile {
     display: none;
   }
 }
 @media screen and (min-width: 860px) {
-  #es-prada.es-prada .es-cross__container {
+  #es-biotherm.es-biotherm .es-cross__container {
     justify-content: space-around;
     max-width: none;
   }
-  #es-prada.es-prada .es-cross__single {
+  #es-biotherm.es-biotherm .es-cross__single {
     max-width: 140px;
   }
-  #es-prada.es-prada .es-cross__title {
-    margin-bottom: 100px;
-  }
-  #es-prada.es-prada .es-cross__text {
+  #es-biotherm.es-biotherm .es-cross__text {
     min-height: 75px;
   }
-  #es-prada.es-prada .es-cross__img {
+  #es-biotherm.es-biotherm .es-cross__img {
     max-width: 250px;
     max-height: 366px;
   }
-  #es-prada.es-prada .es-cross__img--2 {
+  #es-biotherm.es-biotherm .es-cross__img--2 {
     max-width: 274px;
   }
-  #es-prada.es-prada .es-cross__img--3 {
+  #es-biotherm.es-biotherm .es-cross__img--3 {
     max-width: 236px;
     margin-right: 0;
   }
-  #es-prada.es-prada .es-cross__packshot {
+  #es-biotherm.es-biotherm .es-cross__packshot {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     min-height: 300px;
   }
-  #es-prada.es-prada .es-cross__packshot--2 {
+  #es-biotherm.es-biotherm .es-cross__packshot--2 {
     max-width: 250px;
   }
-  #es-prada.es-prada .es-cross__packshot--2::before {
+  #es-biotherm.es-biotherm .es-cross__packshot--2::before {
     left: 33%;
     top: -20px;
   }
-  #es-prada.es-prada .es-cross__packshot--3::before {
+  #es-biotherm.es-biotherm .es-cross__packshot--3::before {
     left: 25%;
     top: -20px;
   }
-  #es-prada.es-prada .es-title {
-    font-size: 44px;
-  }
 }
 @media screen and (min-width: 1200px) {
-  #es-prada.es-prada .es-cross__single {
-    max-width: 250px;
+  #es-biotherm.es-biotherm .es-category-2__items {
+    max-width: none;
+    justify-content: space-around;
+  }
+  #es-biotherm.es-biotherm .es-category-2__image {
+    max-width: 300px;
+    max-height: 290px;
+  }
+  #es-biotherm.es-biotherm .es-cross__single {
+    max-width: 225px;
     justify-content: space-between;
   }
-  #es-prada.es-prada .es-cross__link {
+  #es-biotherm.es-biotherm .es-cross__link {
     min-width: 248px;
   }
-  #es-prada.es-prada .es-cross__text {
+  #es-biotherm.es-biotherm .es-cross__text {
     max-width: 245px;
   }
-  #es-prada.es-prada .es-cross__packshot--1::before {
+  #es-biotherm.es-biotherm .es-cross__item-title {
+    min-height: 30px;
+    min-width: 230px;
+  }
+  #es-biotherm.es-biotherm .es-cross__packshot--1::before {
     top: -45px;
     left: -47px;
     font-size: 200px;
   }
-  #es-prada.es-prada .es-cross__packshot--2::before {
+  #es-biotherm.es-biotherm .es-cross__packshot--2::before {
     top: -50px;
     font-size: 200px;
   }
-  #es-prada.es-prada .es-cross__packshot--3::before {
+  #es-biotherm.es-biotherm .es-cross__packshot--3::before {
     top: -50px;
     font-size: 200px;
+  }
+  #es-biotherm.es-biotherm .es-mission__img {
+    max-width: 610px;
+  }
+  #es-biotherm.es-biotherm .es-mission__text-group {
+    max-width: 50%;
   }
 }
 @media screen and (min-width: 1300px) {
-  #es-prada.es-prada .es-slider,
-  #es-prada.es-prada .es-category,
-  #es-prada.es-prada .es-category-2,
-  #es-prada.es-prada .es-cross,
-  #es-prada.es-prada .es-video {
-    margin-bottom: 114px;
+  #es-biotherm.es-biotherm .es-slider,
+  #es-biotherm.es-biotherm .es-category {
+    margin-bottom: 80px;
   }
 }
 @keyframes slidedown {
