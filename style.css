@@ -139,16 +139,11 @@ body {
 #es-biotherm.es-biotherm .es-category-2__item-link {
   display: block;
   margin: 0 auto;
-  padding: 20px 35px;
-  max-width: 518px;
-  font-family: "Yeseva One", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   text-align: center;
-  color: #fff;
-  background: #000000;
+  color: #000000;
   text-decoration: none;
   transition: all 0.3s ease;
 }
