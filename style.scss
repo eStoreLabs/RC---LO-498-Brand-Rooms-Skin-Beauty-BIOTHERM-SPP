@@ -69,6 +69,10 @@ body {
     &__image {
       @include img;
       margin-bottom: 54px;
+
+      &--desktop {
+        display: none;
+      }
     }
 
     &__description {
@@ -86,11 +90,18 @@ body {
 
     &__image {
       @include img;
-      width: 95%;
+      width: 70%;
+      max-width: 300px;
 
       &--desktop {
         display: none;
       }
+    }
+
+    &__link {
+      margin-top: -30px !important;
+      display: block;
+      margin: 0 auto;
     }
   }
 
@@ -194,6 +205,10 @@ body {
   .es-cross {
     padding: 0 16px;
 
+    &--desktop {
+      display: none;
+    }
+
     &__container {
       display: flex;
       flex-wrap: wrap;
@@ -273,8 +288,9 @@ body {
       font-family: $regular;
       color: $black;
       min-width: 195px;
-      font-size: 13px;
+      font-size: 16px;
       margin-bottom: 16px;
+      font-weight: bold;
       text-decoration: underline;
       transition: all 0.3s ease;
       text-align: center;
@@ -413,6 +429,24 @@ body {
       gap: 30px;
     }
 
+    &__button {
+      font-family: $regular;
+      font-weight: bold;
+      display: block;
+      background: none;
+      border: none;
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+
+    &__invisible {
+      display: none;
+    }
+
+    &__invisible--active {
+      display: inline;
+    }
+
     &__item {
       display: flex;
       flex-wrap: wrap;
@@ -451,7 +485,8 @@ body {
       font-family: $regular;
       color: $black;
       max-width: 195px;
-      font-size: 13px;
+      font-size: 16px;
+      font-weight: bold;
       margin-bottom: 16px;
       text-decoration: underline;
       transition: all 0.3s ease;
@@ -506,8 +541,9 @@ body {
     gap: 0 4px;
     padding: 0;
     margin: 0;
-    bottom: 3%;
-    left: 45%;
+    bottom: -3%;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 
   .slick-dots li {
@@ -585,6 +621,18 @@ body {
   }
 
   @media screen and (min-width: 600px) {
+    .es-banner {
+      &__image {
+        &--desktop {
+          display: block;
+        }
+
+        &--mobile {
+          display: none;
+        }
+      }
+    }
+
     .es-category {
       &__items {
         flex-direction: row;
@@ -617,6 +665,26 @@ body {
     .slick-button-2-prev,
     .slick-button-2-next {
       display: none;
+    }
+
+    .es-cross {
+      &--desktop {
+        display: block;
+      }
+
+      &--mobile {
+        display: none;
+      }
+    }
+
+    .es-mission {
+      &__button {
+        display: none;
+      }
+
+      &__invisible {
+        display: inline;
+      }
     }
   }
 

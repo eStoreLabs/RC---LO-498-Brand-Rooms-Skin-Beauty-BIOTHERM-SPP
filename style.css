@@ -50,6 +50,9 @@ body {
   margin: 0 auto;
   margin-bottom: 54px;
 }
+#es-biotherm.es-biotherm .es-banner__image--desktop {
+  display: none;
+}
 #es-biotherm.es-biotherm .es-banner__description {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -65,10 +68,16 @@ body {
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  width: 95%;
+  width: 70%;
+  max-width: 300px;
 }
 #es-biotherm.es-biotherm .es-slider__image--desktop {
   display: none;
+}
+#es-biotherm.es-biotherm .es-slider__link {
+  margin-top: -30px !important;
+  display: block;
+  margin: 0 auto;
 }
 #es-biotherm.es-biotherm .es-category {
   padding-left: 15px;
@@ -163,6 +172,9 @@ body {
 }
 #es-biotherm.es-biotherm .es-cross {
   padding: 0 16px;
+}
+#es-biotherm.es-biotherm .es-cross--desktop {
+  display: none;
 }
 #es-biotherm.es-biotherm .es-cross__container {
   display: flex;
@@ -263,8 +275,9 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #000000;
   min-width: 195px;
-  font-size: 13px;
+  font-size: 16px;
   margin-bottom: 16px;
+  font-weight: bold;
   text-decoration: underline;
   transition: all 0.3s ease;
   text-align: center;
@@ -387,6 +400,21 @@ body {
   align-items: center;
   gap: 30px;
 }
+#es-biotherm.es-biotherm .es-mission__button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: block;
+  background: none;
+  border: none;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#es-biotherm.es-biotherm .es-mission__invisible {
+  display: none;
+}
+#es-biotherm.es-biotherm .es-mission__invisible--active {
+  display: inline;
+}
 #es-biotherm.es-biotherm .es-mission__item {
   display: flex;
   flex-wrap: wrap;
@@ -438,7 +466,8 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #000000;
   max-width: 195px;
-  font-size: 13px;
+  font-size: 16px;
+  font-weight: bold;
   margin-bottom: 16px;
   text-decoration: underline;
   transition: all 0.3s ease;
@@ -483,8 +512,9 @@ body {
   gap: 0 4px;
   padding: 0;
   margin: 0;
-  bottom: 3%;
-  left: 45%;
+  bottom: -3%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 #es-biotherm.es-biotherm .slick-dots li {
   width: 12px;
@@ -539,6 +569,12 @@ body {
   }
 }
 @media screen and (min-width: 600px) {
+  #es-biotherm.es-biotherm .es-banner__image--desktop {
+    display: block;
+  }
+  #es-biotherm.es-biotherm .es-banner__image--mobile {
+    display: none;
+  }
   #es-biotherm.es-biotherm .es-category__items {
     flex-direction: row;
     gap: 10px;
@@ -562,6 +598,18 @@ body {
   #es-biotherm.es-biotherm .slick-button-2-prev,
   #es-biotherm.es-biotherm .slick-button-2-next {
     display: none;
+  }
+  #es-biotherm.es-biotherm .es-cross--desktop {
+    display: block;
+  }
+  #es-biotherm.es-biotherm .es-cross--mobile {
+    display: none;
+  }
+  #es-biotherm.es-biotherm .es-mission__button {
+    display: none;
+  }
+  #es-biotherm.es-biotherm .es-mission__invisible {
+    display: inline;
   }
 }
 @media screen and (min-width: 768px) {
